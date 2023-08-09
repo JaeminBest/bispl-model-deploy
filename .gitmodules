@@ -1,0 +1,6 @@
+[submodule "vessl-deploy/spmm/SPMM"]
+	path = vessl-deploy/spmm/SPMM
+	url = https://github.com/jinhojsk515/SPMM.git
+[submodule "vessl-deploy/medical_x_vl/Medical_X-VL"]
+	path = vessl-deploy/medical_x_vl/Medical_X-VL
+	url = https://github.com/sangjoon-park/Medical_X-VL.git

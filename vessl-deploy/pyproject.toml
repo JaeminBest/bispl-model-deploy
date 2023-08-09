@@ -4,11 +4,23 @@ version = "0.1.0"
 description = "vessl run을 통해 쉽게 배포할 수 있는 환경의 제공"
 authors = ["JaeminBest <mikjm98@gmail.com>"]
 readme = "README.md"
-packages = [{include = "vessl_deploy"}]
+packages = []
 
 [tool.poetry.dependencies]
 python = "^3.11"
+vessl = "^0.1.128"
 
+[tool.poetry.group.dev]
+optional = true
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+pytest = "^7.3.1"
+pre-commit = "^3.2.2"
+python-dotenv = "^1.0.0"
+black = "^23.3.0"
+ipykernel = "^6.22.0"
+ruff = "^0.0.262"
+autoflake = "^2.1.1"
 
 [build-system]
 requires = ["poetry-core"]
