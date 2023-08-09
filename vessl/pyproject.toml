@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "vessl-deploy"
+version = "0.1.0"
+description = "vessl run을 통해 쉽게 배포할 수 있는 환경의 제공"
+authors = ["JaeminBest <mikjm98@gmail.com>"]
+readme = "README.md"
+packages = [{include = "vessl_deploy"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
